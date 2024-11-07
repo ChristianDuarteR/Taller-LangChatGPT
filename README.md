@@ -33,6 +33,11 @@ Para ejecutar este proyecto, necesitarás tener instalado:
    git clone https://github.com/ChristianDuarteR/Taller-LangChatGPT
 5. Instalar un ambiente virtual de python, para que jupyter notebook pueda correr todas las dependencias
 
+6. Proporcione el API Key en las variable que se encuentran vacias sobre los archivos
+   - langchainbasicapp
+   - langchainserver
+   Esto es importante para que La Api y el servidor puedan utilizar el modelo de lenguaje OpenIA
+
    
 ### Deployment
 
