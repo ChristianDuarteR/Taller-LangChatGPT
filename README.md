@@ -31,19 +31,23 @@ Para ejecutar este proyecto, necesitarás tener instalado:
 4. Clonar el repositorio en tu máquina local:lic dere
    ```bash
    git clone https://github.com/ChristianDuarteR/Taller-LangChatGPT
+5. Instalar un ambiente virtual de python, para que jupyter notebook pueda correr todas las dependencias
 
    
 ### Deployment
 
 1. Abre el proyecto con tu IDE favorito o navega hasta el directorio del proyecto.
-2. Desde la terminal, ejectuta los dos archivos de python
+2. Ejecute todos los comandos del archivo jupyter Notebook (Asegurese de tener un ambiente virtual instalado previamente)
+![image](https://github.com/user-attachments/assets/8849832c-deee-4755-b603-7dbe84d81b4f)
+
+4. Desde la terminal, ejectuta los dos archivos de python
      ```bash
    python langchainserver.py
    python langchaincliente.py
-3. El servidor iniciara
+5. El servidor iniciara
    ![image](https://github.com/user-attachments/assets/ddccecf0-e174-4988-9fc5-eecdd4068864)
      
-4. Es posible interactuar con la aplicacion en el puerto (http:localhost:8000/chain/playground)
+6. Es posible interactuar con la aplicacion en el puerto (http:localhost:8000/chain/playground)
    ![image](https://github.com/user-attachments/assets/393536ed-8f98-40c2-9ad2-07c1094e62df)
 
    
